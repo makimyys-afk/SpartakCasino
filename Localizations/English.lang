@@ -1,0 +1,58 @@
+{
+	appName = "Spartak Casino",
+	appDescription = "Professional casino with three games",
+	
+	mainMenu = {
+		title = "SPARTAK CASINO",
+		subtitle = "★ Premium Casino ★",
+		balance = "💰 Balance: %d credits",
+		
+		slotsButton = "🎰 SLOT MACHINES",
+		rouletteButton = "🎡 ROULETTE",
+		diceButton = "🎲 DICE",
+		exitButton = "✖ EXIT",
+		
+		footer = "SpartakCasino v1.0.0 © 2025 | Manus AI"
+	},
+	
+	slots = {
+		title = "🎰 SLOT MACHINES 🎰",
+		info = "Bet: 100 credits | Jackpot: 1000 credits",
+		description = "Match 3 symbols to win!",
+		
+		spinButton = "▶ SPIN",
+		backButton = "◀ BACK",
+		
+		jackpot = "🎉 JACKPOT! You won 1000 credits! 🎉",
+		tryAgain = "Try again!",
+		notEnoughMoney = "❌ Not enough credits!"
+	},
+	
+	roulette = {
+		title = "🎡 ROULETTE 🎡",
+		info = "Bet: 200 credits | Red/Black: x2 | Green: x10",
+		
+		redButton = "🔴 RED",
+		blackButton = "⚫ BLACK",
+		greenButton = "🟢 GREEN",
+		backButton = "◀ BACK",
+		
+		win = "🎉 WIN! You got %d credits! 🎉",
+		lose = "Bad luck! Try again!",
+		notEnoughMoney = "❌ Not enough credits!"
+	},
+	
+	dice = {
+		title = "🎲 DICE 🎲",
+		info = "Bet: 150 credits | Sum > 7 = x2",
+		
+		rollButton = "🎲 ROLL",
+		backButton = "◀ BACK",
+		
+		sum = "Sum: %d",
+		win = "🎉 WIN! You got 300 credits! 🎉",
+		lose = "Bad luck! Try again!",
+		notEnoughMoney = "❌ Not enough credits!"
+	}
+}
+
