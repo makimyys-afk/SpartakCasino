@@ -63,13 +63,13 @@ SpartakCasino - это полнофункциональное казино-пр�
 
 1. Скачайте репозиторий:
 ```lua
-wget -f https://raw.githubusercontent.com/ВАШ_USERNAME/SpartakCasino/main/install.lua /tmp/install.lua && /tmp/install.lua
+wget -f https://raw.githubusercontent.com/makimyys-afk/SpartakCasino/main/install.lua /tmp/install.lua && /tmp/install.lua
 ```
 
 2. Или клонируйте репозиторий:
 ```bash
 cd /MineOS/Applications/
-git clone https://github.com/ВАШ_USERNAME/SpartakCasino.git
+git clone https://github.com/makimyys-afk/SpartakCasino.git
 ```
 
 3. Перезапустите MineOS или обновите список приложений
@@ -147,7 +147,7 @@ MIT License - см. файл [LICENSE](LICENSE)
 
 **Manus AI**
 
-- GitHub: [@ВАШ_USERNAME](https://github.com/ВАШ_USERNAME)
+- GitHub: [@makimyys-afk](https://github.com/makimyys-afk)
 
 ## 🙏 Благодарности
 
@@ -159,7 +159,7 @@ MIT License - см. файл [LICENSE](LICENSE)
 
 Если у вас возникли проблемы или есть предложения:
 
-1. Откройте [Issue](https://github.com/ВАШ_USERNAME/SpartakCasino/issues)
+1. Откройте [Issue](https://github.com/makimyys-afk/SpartakCasino/issues)
 2. Опишите проблему подробно
 3. Приложите скриншоты (если возможно)
 
