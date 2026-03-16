@@ -1,178 +1,76 @@
-# 🎰 SpartakCasino
+# SpartakCasino
 
-**Профессиональное казино для OpenComputers с графическим интерфейсом в стиле MineOS**
+SpartakCasino is a professional and fully-featured casino application designed for **OpenComputers** within Minecraft, boasting a sophisticated graphical user interface (GUI) inspired by **MineOS**. This application provides an immersive gaming experience with three classic casino games, complete with elegant animations and an integrated balance system.
 
-[![MineOS](https://img.shields.io/badge/MineOS-Compatible-brightgreen)](https://github.com/IgorTimofeev/MineOS)
-[![OpenComputers](https://img.shields.io/badge/OpenComputers-1.7.10-blue)](https://github.com/MightyPirates/OpenComputers)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+## Features
 
-## 📖 Описание
+*   **Three Engaging Games:**
+    *   **Slot Machine:** Features a 100-credit bet, a 1000-credit jackpot (x10), and five distinct symbols (7️⃣ 💎 🍒 ⭐ 🔔) with smooth spinning animations.
+    *   **Roulette:** Offers a 200-credit bet, 400 credits (x2) for red/black, and 2000 credits (x10) for green, accompanied by realistic wheel animations.
+    *   **Dice:** A simple game with a 150-credit bet, yielding 300 credits (x2) if the sum of the dice is greater than 7, featuring dice roll animations.
+*   **Professional Design:**
+    *   A polished GUI built on the MineOS framework.
+    *   Luxurious visual assets including a logo, slot machine, roulette, dice, and background images.
+    *   An elegant gold, red, and green color scheme.
+    *   Smooth and fluid animations for an enhanced user experience.
+    *   An integrated balance system displayed prominently on the screen.
+    *   An intuitive and user-friendly interface.
 
-SpartakCasino - это полнофункциональное казино-приложение для OpenComputers, разработанное с использованием библиотек MineOS GUI. Приложение включает три классические азартные игры с красивым графическим интерфейсом, анимациями и системой баланса.
+## Tech Stack
 
-![Logo](Images/logo.png)
+The SpartakCasino application is built upon the following technologies:
 
-## ✨ Особенности
+*   **Lua:** The primary programming language used for the application logic.
+*   **MineOS GUI:** A robust library providing the graphical interface framework.
+*   **OpenComputers:** A Minecraft mod that enables in-game programmable computers, serving as the platform for this application.
 
-### 🎮 Три игры:
+## Installation & Setup
 
-1. **🎰 Игровые автоматы (Слоты)**
-   - Ставка: 100 кредитов
-   - Джекпот: 1000 кредитов (x10)
-   - 5 символов: 7️⃣ 💎 🍒 ⭐ 🔔
-   - Плавная анимация вращения
+### Requirements:
 
-2. **🎡 Рулетка**
-   - Ставка: 200 кредитов
-   - Красное/Чёрное: 400 кредитов (x2)
-   - Зелёное: 2000 кредитов (x10)
-   - Реалистичная анимация колеса
+To run SpartakCasino, ensure your OpenComputers setup meets these requirements:
 
-3. **🎲 Кости**
-   - Ставка: 150 кредитов
-   - Выигрыш: 300 кредитов (x2)
-   - Условие: сумма > 7
-   - Анимация броска
+*   **OpenComputers** (Minecraft 1.7.10)
+*   **MineOS** installed on your computer
+*   **Tier 2+** components (CPU, GPU, RAM, Screen)
+*   **Internet Card** (required for installation via GitHub)
 
-### 🎨 Дизайн:
+### Installation Methods:
 
-- ✅ Профессиональный GUI на базе MineOS
-- ✅ Роскошные изображения (логотип, слоты, рулетка, кости, фон)
-- ✅ Цветовая схема: золото, красный, зелёный
-- ✅ Плавные анимации
-- ✅ Система баланса с отображением
-- ✅ Интуитивный интерфейс
+#### Method 1: Via MineOS App Market (Recommended)
 
-## 📦 Установка
+1.  Launch MineOS.
+2.  Open the **App Market**.
+3.  Search for **SpartakCasino**.
+4.  Click **Install**.
 
-### Требования:
+#### Method 2: Manual Installation
 
-- **OpenComputers** (Minecraft 1.7.10)
-- **MineOS** установленная на компьютере
-- **Tier 2+** компоненты (CPU, GPU, RAM, Screen)
-- **Internet Card** (для установки через GitHub)
+1.  **Download via `wget`:**
+    ```lua
+    wget -f https://raw.githubusercontent.com/makimyys-afk/SpartakCasino/main/install.lua /tmp/install.lua && /tmp/install.lua
+    ```
+2.  **Alternatively, clone the repository:**
+    ```bash
+    cd /MineOS/Applications/
+    git clone https://github.com/makimyys-afk/SpartakCasino.git
+    ```
+3.  Restart MineOS or refresh your application list to see SpartakCasino.
 
-### Способ 1: Через MineOS App Market (рекомендуется)
+## Usage
 
-1. Запустите MineOS
-2. Откройте **App Market**
-3. Найдите **SpartakCasino**
-4. Нажмите **Install**
+1.  Start MineOS.
+2.  Locate the **SpartakCasino** icon on your desktop.
+3.  Click the icon to launch the application.
+4.  Select your desired game from the main menu.
+5.  Enjoy the casino experience!
 
-### Способ 2: Ручная установка
+### Controls:
 
-1. Скачайте репозиторий:
-```lua
-wget -f https://raw.githubusercontent.com/makimyys-afk/SpartakCasino/main/install.lua /tmp/install.lua && /tmp/install.lua
-```
+*   **Left Mouse Click:** Used for selecting buttons and interacting with the interface.
+*   **ESC Key:** Closes the current game window.
+*   Your current balance is displayed at the top of the screen.
 
-2. Или клонируйте репозиторий:
-```bash
-cd /MineOS/Applications/
-git clone https://github.com/makimyys-afk/SpartakCasino.git
-```
+## License
 
-3. Перезапустите MineOS или обновите список приложений
-
-## 🚀 Использование
-
-1. Запустите MineOS
-2. Найдите иконку **SpartakCasino** на рабочем столе
-3. Кликните для запуска
-4. Выберите игру из главного меню
-5. Наслаждайтесь!
-
-### Управление:
-
-- **Левый клик мыши** - выбор кнопок
-- **ESC** - закрыть окно игры
-- Баланс отображается в верхней части экрана
-
-## 🎯 Игровой процесс
-
-### Стартовый баланс: 10,000 кредитов
-
-**Стратегия:**
-- Слоты: низкий риск, высокая награда (джекпот x10)
-- Рулетка: средний риск, средняя награда (зелёное x10, красное/чёрное x2)
-- Кости: низкий риск, стабильная награда (x2)
-
-## 🖼️ Скриншоты
-
-### Главное меню
-![Main Menu](Images/screenshot_main.png)
-
-### Игровые автоматы
-![Slots](Images/slot_machine.png)
-
-### Рулетка
-![Roulette](Images/roulette.png)
-
-### Кости
-![Dice](Images/dice.png)
-
-## 🛠️ Разработка
-
-### Структура проекта:
-
-```
-SpartakCasino/
-├── Applications/
-│   └── SpartakCasino.app/
-│       ├── Main.lua          # Главный файл приложения
-│       └── Icon.pic          # Иконка приложения
-├── Images/                    # Изображения для интерфейса
-│   ├── logo.png
-│   ├── slot_machine.png
-│   ├── roulette.png
-│   ├── dice.png
-│   └── background.png
-├── Localizations/             # Локализации
-│   ├── Russian.lang
-│   └── English.lang
-└── README.md
-```
-
-### Технологии:
-
-- **Lua** - язык программирования
-- **MineOS GUI** - библиотека интерфейса
-- **OpenComputers** - мод для Minecraft
-
-## 📝 Лицензия
-
-MIT License - см. файл [LICENSE](LICENSE)
-
-## 👨‍💻 Автор
-
-**Manus AI**
-
-- GitHub: [@makimyys-afk](https://github.com/makimyys-afk)
-
-## 🙏 Благодарности
-
-- [IgorTimofeev](https://github.com/IgorTimofeev) - за MineOS
-- [MightyPirates](https://github.com/MightyPirates) - за OpenComputers
-- Сообщество OpenComputers
-
-## 📮 Поддержка
-
-Если у вас возникли проблемы или есть предложения:
-
-1. Откройте [Issue](https://github.com/makimyys-afk/SpartakCasino/issues)
-2. Опишите проблему подробно
-3. Приложите скриншоты (если возможно)
-
-## 🔄 Обновления
-
-### v1.0.0 (2025-10-25)
-- ✅ Первый релиз
-- ✅ Три игры: слоты, рулетка, кости
-- ✅ Графический интерфейс MineOS
-- ✅ Система баланса
-- ✅ Анимации
-
----
-
-**Удачи в игре! 🎰✨**
-
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
